@@ -1,0 +1,81 @@
+body{
+  background-image: url("background.jpg");
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment:fixed;
+  background-position: center;
+  font-family: 'Supermercado One', cursive;
+
+}
+h1{
+  text-align: center;
+  margin: 4rem  0px 2.5rem 0;
+}
+body{
+  text-align: center;
+}
+input {
+  border: none;
+}
+#container{
+  display: flex;
+ justify-content: center;
+ border-radius: 3px;
+}
+.card {
+ display: flex;
+ justify-content: center;
+ background-color: #8f7c1f;
+ width: 250px;
+ margin: auto;
+ border-radius:3px;
+}
+.footer{
+  color:#438c99;
+  background-color: #8f7c1f;
+  text-align: center;
+  width: 250px;
+  margin: auto;
+  font-size: 10px;
+  display: inline-block;
+  border-radius: 10px
+}
+.footer button{
+  color:white;
+}
+.leftCorner{
+  cursor: pointer;
+}
+#all{
+  background-color: #8f7c1f;
+  text-align: center;
+  border: none;
+
+}
+#all:hover{
+  color: #2bc7e3;
+  border: none;
+  cursor: pointer;
+
+}
+#active{
+  background-color: #8f7c1f;
+  border: none;
+}
+#active:hover{
+  color:#2bc7e3;
+  border: none;
+  cursor: pointer;
+}
+#completed{
+background-color: #8f7c1f;
+text-align: center;
+border: none;
+}
+#completed:hover{
+  color: #2bc7e3;
+  border: none;
+  cursor: pointer;
+
+}
